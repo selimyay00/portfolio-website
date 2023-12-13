@@ -1,0 +1,21 @@
+.navbar {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 80px;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.navbar-icons, .navbar-text {
+    color: #fff;
+}
+
+
+
