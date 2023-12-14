@@ -1,0 +1,13 @@
+.educations-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.educations-link {
+    text-decoration: none;
+    color: gray;
+}
+
+.educations-link:hover {
+    color: darkgoldenrod;
+}
