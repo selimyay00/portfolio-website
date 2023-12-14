@@ -5,7 +5,6 @@ import { FaCode } from 'react-icons/fa';
 import { FaGraduationCap } from 'react-icons/fa';
 import { FaFolderOpen } from 'react-icons/fa';
 
-
 function Navbar() {
     return (
         <div className="navbar">
