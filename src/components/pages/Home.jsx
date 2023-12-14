@@ -2,6 +2,7 @@ import Navbar from "../navbar/Navbar"
 import About from './about/About';
 import Educations from "./educations/Educations";
 import Intro from './Intro/Intro';
+import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             <About />
             <Skills />
             <Educations />
+            <Projects />
         </section>
     )
 }
