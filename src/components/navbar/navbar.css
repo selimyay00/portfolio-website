@@ -17,6 +17,10 @@
     color: #fff;
 }
 
+.navbar-text {
+    text-decoration: none;
+}
+
 .navbar-text:hover {
     color: gray;
 }
