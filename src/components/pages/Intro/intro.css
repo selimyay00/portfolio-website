@@ -22,3 +22,11 @@
 .container-info {
     margin-top: 10px;
 }
+
+.container__title {
+    color: darkgoldenrod;
+}
+
+.container__content {
+    color: gray;
+}
