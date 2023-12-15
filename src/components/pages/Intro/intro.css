@@ -30,3 +30,19 @@
 .container__content {
     color: gray;
 }
+
+.intro-icons-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro-icons {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.intro-icons:hover {
+    color: gray;
+}

@@ -8,6 +8,7 @@
     color: gray;
 }
 
-.educations-link:hover {
-    color: darkgoldenrod;
+.educations__name:hover {
+    background-color: gray;
+    border-radius: 5px;
 }

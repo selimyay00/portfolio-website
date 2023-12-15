@@ -1,5 +1,7 @@
 import './intro.css'
 import myPhoto from '/src/images/my-photo.jpeg';
+import { FaGithub } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 function Intro() {
     return (
@@ -11,8 +13,16 @@ function Intro() {
                         <i>
                             React / Frontend Developer
                         </i>
-                    
                     </p>
+                    <div className='intro-icons-section'>
+                        <a href="https://github.com/selimyay00" target='_blank'>
+                            <FaGithub className='intro-icons' />
+                        </a>
+                        <a href="https://twitter.com/selimyay9700" target='_blank'>
+                            <FaTwitter className='intro-icons' />
+                        </a>
+                    </div>
+                    
                 </div>
         </div>
     )

@@ -1,0 +1,14 @@
+.project-links {
+    text-decoration: none;
+    color: gray;
+}
+
+.project-links:hover {
+    color: darkgoldenrod;
+}
+
+.project-images {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
