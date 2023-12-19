@@ -25,6 +25,7 @@
 
 .container__title {
     color: darkgoldenrod;
+    letter-spacing: 1.5px;
 }
 
 .container__content {

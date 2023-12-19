@@ -5,10 +5,10 @@
 
 .educations-link {
     text-decoration: none;
-    color: gray;
+    color: lightgray;
 }
 
 .educations__name:hover {
-    background-color: gray;
+    color: darkgoldenrod;
     border-radius: 5px;
 }

@@ -1,4 +1,5 @@
 import './skills.css'
+import { FaMinus } from 'react-icons/fa';
 
 function Skills() {
     return (
@@ -6,43 +7,47 @@ function Skills() {
             <h2 className='container__title'>Skills</h2>
             <div className='skills-content'>
                 <p className='sub-heading'>
-                    <i>
+                    <span>
                         Frontend Technologies
-                    </i>
+                    </span>
+                    <hr />
                 </p>
                 <p className='container__content'>
-                    * HTML
+                   <FaMinus /> HTML
                 </p>
                 <p className='container__content'>
-                    * CSS
+                   <FaMinus /> CSS
                 </p>
                 <p className='container__content'>
-                    * JavaScript
+                   <FaMinus /> JavaScript
                 </p>
                 <p className='container__content'>
-                    * React
+                   <FaMinus /> React
                 </p>
                 <br />
                 <p className='sub-heading'>
-                    <i>
+                    <span>
                         Development Tools
-                    </i>
+                    </span>
+                    <hr />
                 </p>
-                <p className='container__content'>* VS Code</p>
+                <p className='container__content'><FaMinus /> VS Code</p>
                 <br />
                 <p className='sub-heading'>
-                    <i>
+                    <span>
                         Design
-                    </i>
+                        <hr />
+                    </span>
                 </p>
-                <p className='container__content'>* Figma</p>
+                <p className='container__content'><FaMinus /> Figma</p>
                 <br />
                 <p className='sub-heading'>
-                    <i>
+                    <span>
                         Build Tools
-                    </i>
+                    </span>
+                    <hr />
                 </p>
-                <p className='container__content'>* Vite</p>
+                <p className='container__content'><FaMinus /> Vite</p>
             </div>
             
         </div>

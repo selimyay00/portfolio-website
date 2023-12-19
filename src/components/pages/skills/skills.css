@@ -1,3 +1,8 @@
 .sub-heading {
     color: lightgray;
+    text-align: center;
+}
+
+.container__content {
+    text-align: center;
 }
