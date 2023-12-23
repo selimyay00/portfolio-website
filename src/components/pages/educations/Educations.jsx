@@ -4,7 +4,7 @@ function Educations() {
     return (
         <div className='container'>
             <h2 className='container__title'>Educations</h2>
-            <h6 style={{color: 'lightgray'}}>
+            <h6 style={{ color: 'lightgray', marginTop: -12 }}>
                 <i>
                     * Click on the name to view the certification.
                 </i>
