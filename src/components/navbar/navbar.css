@@ -7,24 +7,34 @@
     border-radius: 5px;
 }
 
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px;
+        height: fit-content;
+        min-height: 80px;
+        width: fit-content;
+    }
+    .navbar-text {
+        margin-right: 15px;
+        min-width: fit-content;
+    }
+}
+
 .navbar-icons {
     display: flex;
     align-items: center;
-    column-gap: 5px;
 }
 
 .navbar-icons, .navbar-text {
     color: #fff;
+    gap: 5px;
 }
 
 .navbar-text {
     text-decoration: none;
-}
-
-@media (max-width: 520px) {
-    .navbar-text {
-        margin-right: 100px;
-    }
 }
 
 .navbar-text:hover {
