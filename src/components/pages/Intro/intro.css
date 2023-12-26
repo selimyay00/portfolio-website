@@ -12,6 +12,13 @@
     line-height: 1.2;
 }
 
+@media (max-width: 520px) {
+    .container {
+        min-width: 350px;
+        margin: 30px 30px 30px 40px;
+    }
+}
+
 .container > img {
     height: 300px;
     width: 100%;
