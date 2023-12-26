@@ -21,11 +21,9 @@
     text-decoration: none;
 }
 
-@media (max-width: 360px) {
-    .navbar-text, .navbar-icons {
-        font-size: smaller;
-        display: flex;
-        row-gap: 20px;
+@media (max-width: 520px) {
+    .navbar-text {
+        margin-right: 100px;
     }
 }
 

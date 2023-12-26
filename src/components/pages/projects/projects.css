@@ -1,31 +1,28 @@
-.project-links {
-    text-decoration: none;
-    color: darkgoldenrod;
-}
-
-.project-links:hover {
-    color: green;
-}
-
 .project-images {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: contain;
+    margin: 0px auto;
 }
 
 .project__name {
-    margin: 30px 0;
-    text-align: center;
     font-size: larger;
     letter-spacing: 1.2px;
-}
-
-.project__name > a {
     color: lightgray;
-    letter-spacing: 0.2px;
 }
 
-.line {
-    color: red;
-    background-color: red;
+.project__name:hover {
+    color: darkgoldenrod;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-explanation {
+    color: gray;
+    font-size: smaller;
+    text-align: center;
 }
